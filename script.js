@@ -135,8 +135,13 @@ function updateScore() {
     if (currentTotal >= totalRequired) {
         scoreLabel.style.color = 'var(--success)';
         scoreLabel.textContent = "COMPLETE!";
+        if (!window.confettiFired) {
+            fireConfetti();
+            window.confettiFired = true;
+        }
     } else {
         scoreLabel.style.color = '#fff';
+        window.confettiFired = false;
     }
     
     // Update progress bar
@@ -181,4 +186,5 @@ function fireConfetti() {
       });
     }, 250);
 }
+
 
