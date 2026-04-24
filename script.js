@@ -14,7 +14,7 @@ const categories = {
             { id: 'l10', title: 'The Trophy', desc: 'Something shiny that isn\'t a real trophy, but you are holding it up like you just won the World Championship.' },
             { id: 'l11', title: 'Health Potion', desc: 'A brightly colored (red, blue, or green) drink or snack.' },
             { id: 'l12', title: 'The Mascot', desc: 'A stuffed animal/pet wearing a headset. (Can also sub in siblings or parents in a cool pose).' },
-            { id: 'l13', title: 'The Lucky Charm', desc: 'A lucky charm that someone brought Hold it like the game depends on it.' },
+            { id: 'l13', title: 'The Lucky Charm', desc: 'A lucky charm that someone brought. Hold it like the game depends on it.' },
             { id: 'l14', title: 'The MVP', desc: 'A pose with the team praising one of the players.' },
             { id: 'l15', title: 'Leaderboard', desc: 'Make sure your face shows how you feel about it.' }
         ]
