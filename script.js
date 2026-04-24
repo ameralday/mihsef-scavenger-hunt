@@ -1,21 +1,28 @@
 const categories = {
     loot: {
-        required: 8,
+        required: 15,
         tasks: [
-            { id: 'l1', title: 'The Classic', desc: 'A team selfie in front of the main stage or a major tournament bracket.' },
-            { id: 'l2', title: 'Loot Crate', desc: 'A photo of your team\'s "inventory" (everyone\'s badges, snacks, and gear) laid out neatly on a table.' },
-            { id: 'l3', title: 'Power Up', desc: 'A picture of a teammate dramatically "consuming" a power-up (an energy drink, a snack, or even just a bottle of water).' },
-            { id: 'l4', title: 'The Rivalry', desc: 'A photo of your team "facing off" against another team (staring each other down, shaking hands, or mock-fighting).' },
+            { id: 'l1', title: 'Game Day!', desc: 'A team selfie in front of the MIHSEF sign.' },
+            { id: 'l2', title: 'Low Battery', desc: 'Someone plugged in and playing.' },
+            { id: 'l3', title: 'Hydration', desc: 'Someone on your team drinking water.' },
+            { id: 'l4', title: 'The Coach', desc: 'A cool pose with your coach.' },
             { id: 'l5', title: 'NPC Quest', desc: 'A photo of your team with a member of the event staff or a volunteer (be sure to ask nicely first!).' },
             { id: 'l6', title: 'Epic Loot', desc: 'A photo of a teammate holding a piece of official MIHSEF or team merchandise like it\'s a legendary item.' },
-            { id: 'l7', title: 'The Loading Screen', desc: 'A photo of your team sitting in a row, looking intensely at their phones or a screen, completely still.' },
-            { id: 'l8', title: 'Hidden Easter Egg', desc: 'Find a small, easily missed detail in the venue (a funny sign, a specific sticker, a cool piece of art) and take a close-up photo of it.' }
+            { id: 'l7', title: 'The Fuel', desc: 'A drink (Soda, Gatorade, Monster, Red Bull, G-Fuel, etc.).' },
+            { id: 'l8', title: 'Merch Drop', desc: 'Any piece of Esports team apparel (Jersey, hoodie, hat) that is NOT your own team.' }
+            { id: 'l9', title: 'The Gamer', desc: 'Someone actively playing a board game, a mobile game, Nintendo Switch, or Steam Deck. (Not in one of their state matches.)' }
+            { id: 'l10', title: 'The Trophy', desc: 'Something shiny that isn't a real trophy, but you are holding it up like you just won the World Championship.' }
+            { id: 'l11', title: 'Health Potion', desc: 'A brightly colored (red, blue, or green) drink or snack.' }
+            { id: 'l12', title: 'The Mascot', desc: 'A stuffed animal/pet wearing a headset. (Can also sub in siblings or parents in a cool pose).' }
+            { id: 'l13', title: 'The Lucky Charm', desc: 'A lucky charm that someone brought Hold it like the game depends on it.' }
+            { id: 'l14', title: 'The MVP', desc: 'A pose with the team praising one of the players.' }
+            { id: 'l15', title: 'Leaderboard', desc: 'Make sure your face shows how you feel about it.' }
         ]
     },
     boss: {
         required: 1,
         tasks: [
-            { id: 'b1', title: 'Defeat the Boss', desc: 'Take a group photo with a MIHSEF official or a guest speaker at the event.' }
+            { id: 'b1', title: 'The Cosplay', desc: 'Create a recognizable cosplay of a famous video game character using only items you currently have on you, or random items (e.g., a bucket on the head, a broomstick sword, tinfoil armor). Take a menacing photo.' }
         ]
     },
     sidequests: {
