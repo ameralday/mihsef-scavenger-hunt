@@ -42,7 +42,7 @@ const categories = {
         required: 4,
         tasks: [
             { id: 'h1', title: 'The Shoutcaster', desc: 'Record someone dramatically, loudly, and rapidly "casting" a teammate doing a completely mundane activity (like tying their shoes, or throwing away trash) as if it\'s the final play of a major tournament.' },
-            { id: 'h2', title: 'APM Check', desc: 'A video of a teammate aggressively typing on a calculator, typewriter, or deactivated keyboard like they are trying to reach 400 APM.' },
+            { id: 'h2', title: 'APM Check', desc: 'A video of a teammate aggressively typing on a calculator, typewriter, or unplugged keyboard like they are trying to reach 400 APM.' },
             { id: 'h3', title: 'The Rage Quit', desc: 'Recreate a dramatic, slow-motion "rage quit" (taking off the headset, throwing hands in the air, and storming off). Note: Do not actually throw or break any real equipment!' },
             { id: 'h4', title: 'The Walkout', desc: 'Film your team doing a synchronized, incredibly confident "stage walkout" down a hallway or sidewalk, complete with imaginary pyrotechnics and waving to an invisible crowd.' }
         ]
