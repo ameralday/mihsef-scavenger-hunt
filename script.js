@@ -22,7 +22,7 @@ const categories = {
     boss: {
         required: 1,
         tasks: [
-            { id: 'b1', title: 'The Cosplay', desc: 'Create a recognizable cosplay of a famous video game character using only items you currently have on you, or random items (e.g., a bucket on the head, a broomstick sword, tinfoil armor). Take a menacing photo.' }
+            { id: 'b1', title: 'Defeat the Boss', desc: 'Take a group photo with a MIHSEF official or a guest speaker at the event.' }
         ]
     },
     sidequests: {
@@ -193,5 +193,3 @@ function fireConfetti() {
       });
     }, 250);
 }
-
-
